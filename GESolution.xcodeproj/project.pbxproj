@@ -15,6 +15,13 @@
 		341BBA1B1DBBF1F500875262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341BBA191DBBF1F500875262 /* LaunchScreen.storyboard */; };
 		341BBA261DBBF1F600875262 /* GESolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA251DBBF1F600875262 /* GESolutionTests.swift */; };
 		341BBA311DBBF1F600875262 /* GESolutionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA301DBBF1F600875262 /* GESolutionUITests.swift */; };
+		341BBA3F1DBBF3E500875262 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA3E1DBBF3E500875262 /* TableViewCell.swift */; };
+		341BBA541DBC0F0A00875262 /* TrainsTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA4E1DBC0F0A00875262 /* TrainsTable+CoreDataClass.swift */; };
+		341BBA551DBC0F0A00875262 /* TrainsTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA4F1DBC0F0A00875262 /* TrainsTable+CoreDataProperties.swift */; };
+		341BBA5C1DBC275700875262 /* BusesTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA581DBC275700875262 /* BusesTable+CoreDataClass.swift */; };
+		341BBA5D1DBC275700875262 /* BusesTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA591DBC275700875262 /* BusesTable+CoreDataProperties.swift */; };
+		341BBA5E1DBC275700875262 /* FlightsTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA5A1DBC275700875262 /* FlightsTable+CoreDataClass.swift */; };
+		341BBA5F1DBC275700875262 /* FlightsTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BBA5B1DBC275700875262 /* FlightsTable+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		341BBA2C1DBBF1F600875262 /* GESolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GESolutionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		341BBA301DBBF1F600875262 /* GESolutionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GESolutionUITests.swift; sourceTree = "<group>"; };
 		341BBA321DBBF1F600875262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341BBA3E1DBBF3E500875262 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		341BBA4E1DBC0F0A00875262 /* TrainsTable+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrainsTable+CoreDataClass.swift"; sourceTree = "<group>"; };
+		341BBA4F1DBC0F0A00875262 /* TrainsTable+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrainsTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		341BBA581DBC275700875262 /* BusesTable+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BusesTable+CoreDataClass.swift"; sourceTree = "<group>"; };
+		341BBA591DBC275700875262 /* BusesTable+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BusesTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		341BBA5A1DBC275700875262 /* FlightsTable+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightsTable+CoreDataClass.swift"; sourceTree = "<group>"; };
+		341BBA5B1DBC275700875262 /* FlightsTable+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightsTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,12 @@
 		341BBA011DBBF1F400875262 = {
 			isa = PBXGroup;
 			children = (
+				341BBA581DBC275700875262 /* BusesTable+CoreDataClass.swift */,
+				341BBA591DBC275700875262 /* BusesTable+CoreDataProperties.swift */,
+				341BBA5A1DBC275700875262 /* FlightsTable+CoreDataClass.swift */,
+				341BBA5B1DBC275700875262 /* FlightsTable+CoreDataProperties.swift */,
+				341BBA4E1DBC0F0A00875262 /* TrainsTable+CoreDataClass.swift */,
+				341BBA4F1DBC0F0A00875262 /* TrainsTable+CoreDataProperties.swift */,
 				341BBA0C1DBBF1F400875262 /* GESolution */,
 				341BBA241DBBF1F600875262 /* GESolutionTests */,
 				341BBA2F1DBBF1F600875262 /* GESolutionUITests */,
@@ -102,6 +122,7 @@
 				341BBA0D1DBBF1F400875262 /* AppDelegate.swift */,
 				341BBA0F1DBBF1F400875262 /* ViewController.swift */,
 				341BBA111DBBF1F400875262 /* Main.storyboard */,
+				341BBA3E1DBBF3E500875262 /* TableViewCell.swift */,
 				341BBA171DBBF1F500875262 /* Assets.xcassets */,
 				341BBA191DBBF1F500875262 /* LaunchScreen.storyboard */,
 				341BBA1C1DBBF1F500875262 /* Info.plist */,
@@ -265,7 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341BBA5F1DBC275700875262 /* FlightsTable+CoreDataProperties.swift in Sources */,
 				341BBA101DBBF1F400875262 /* ViewController.swift in Sources */,
+				341BBA541DBC0F0A00875262 /* TrainsTable+CoreDataClass.swift in Sources */,
+				341BBA551DBC0F0A00875262 /* TrainsTable+CoreDataProperties.swift in Sources */,
+				341BBA5D1DBC275700875262 /* BusesTable+CoreDataProperties.swift in Sources */,
+				341BBA3F1DBBF3E500875262 /* TableViewCell.swift in Sources */,
+				341BBA5E1DBC275700875262 /* FlightsTable+CoreDataClass.swift in Sources */,
+				341BBA5C1DBC275700875262 /* BusesTable+CoreDataClass.swift in Sources */,
 				341BBA161DBBF1F400875262 /* GESolution.xcdatamodeld in Sources */,
 				341BBA0E1DBBF1F400875262 /* AppDelegate.swift in Sources */,
 			);
@@ -435,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = D.GESolution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
